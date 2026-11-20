@@ -1,0 +1,2 @@
+ALL_PORTS = range(1, 65536)
+MAX_PORT = 65535

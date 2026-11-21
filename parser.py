@@ -80,7 +80,7 @@ def build_parser():
     return parser
 
 
-def parse_args(command_input):
+def parse_args(command_input=None):
     args = build_parser().parse_args(command_input)
 
     if not args.specs:
